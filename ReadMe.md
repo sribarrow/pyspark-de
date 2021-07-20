@@ -1,18 +1,15 @@
 
 ## Directory Structure
 .
-├── ReadMe.md
-├── __pycache__
-│   ├── parr.cpython-39.pyc
-│   └── test_parr.cpython-39-pytest-6.2.4.pyc
-├── csv
-│   ├── weather.20160201.csv
-│   └── weather.20160301.csv
-├── parr.py
-├── pq
-│   └── weather.parquet
-├── requirements.txt
-└── test_parr.py
+-- ReadMe.md
+-- csv
+-- --- weather.20160201.csv
+-- --- weather.20160301.csv
+-- parr.py
+-- pq
+-- --- weather.parquet
+-- requirements.txt
+-- test_parr.py
 
 ## Reasoning for python modules
 
