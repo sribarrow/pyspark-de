@@ -1,4 +1,6 @@
 
+# VIEW IN RAW for clarity.
+
 ## Directory Structure
 
 ReadMe.md
