@@ -1,15 +1,15 @@
 
 ## Directory Structure
-.
--- ReadMe.md
--- csv
--- --- weather.20160201.csv
--- --- weather.20160301.csv
--- parr.py
--- pq
--- --- weather.parquet
--- requirements.txt
--- test_parr.py
+
+ReadMe.md
+csv
+   weather.20160201.csv
+   weather.20160301.csv
+parr.py
+pq
+   weather.parquet
+requirements.txt
+test_parr.py
 
 ## Reasoning for python modules
 
@@ -24,7 +24,9 @@
 Requirements.txt has list of installations required
 
 # Environment Variables to be set for Pyspark 
+
 - ** Mine is a mac. This may vary for other environments ** 
+
 export JAVA_HOME={Java 8 path}
 export SPARK_HOME={PySpark installation path}
 SBT_HOME=$SPARK_HOME/sbt
