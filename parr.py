@@ -42,12 +42,13 @@ class PDataFrame:
 
 if __name__ == "__main__":
     # import_from_dir()
+    pdf = PDataFrame()
     choice = input("\t\t\t1. Which date was hottest day? \n \
                     2. What was the temperature on that day? \n \
                     3. In which region was the hottest day?\n \
-                        Type 1, 2 or 3 (Default = 1): " )
+                        Type 1, 2 or 3 (Default = 3): " )
     if (choice.isdigit()): choice = int(choice)
-    result = read_from_parquet_with_ps()
+    result = pdf.read_from_parquet_with_ps()
     if choice == 1:
         print(f"The hottest day is {result[1]}")
     elif choice == 2:
