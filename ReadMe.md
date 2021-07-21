@@ -13,11 +13,11 @@
 
 ## Reasoning for python modules
 
-1. I made a choice between pandas and pyarrows. Since pandas uses pyarrows, and pyarrows is more efficient, I chose to use pyarrows over pandas.
-2. Pyspark, as its one of the requirements for the role and it gives the ability to query like SQL, I have used it here.
-3. Initially I thought I will not create a complex as I am creating 2 different modular functions. But I changed it to a class as it prevented the lag of the pyspark load 
-4. I have used the common test module.
-5. Since there is no specifics on how to display, I have chosen an interactive commandline .
+1. I made a choice between pandas and pyarrow. Since pandas uses pyarrow, and pyarrow is more efficient, I chose to use pyarrow over pandas.
+2. I have used Pyspark, as its one of the requirements for the role and it gives the ability to query and apply aggregation like SQL.
+3. Initially I thought I will not use class in this simple case as I am using 2 different modular functions. But I changed it to a class as it prevented the lag of the pyspark load while testing.
+4. I have used the common test modules.
+5. Since there is no specifics on how to display, I have chosen an interactive commandline option.
 6. I have broken Rowgroup to 10000 rows each. Since this is a smaller data, I think there is no big win. But filtering would have been effective as less rows would have been scanned.
 
 ## Prerequisites
